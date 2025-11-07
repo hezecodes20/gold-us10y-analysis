@@ -1,0 +1,14 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Uncomment if you don't want to upload data
+# *.csv
+# gold_vs_us10y_data.csv
