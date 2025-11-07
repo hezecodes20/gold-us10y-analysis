@@ -49,7 +49,7 @@ An exploratory data analysis investigating the relationship between US 10-Year T
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/gold-us10y-analysis.git
+git clone https://github.com/hezecodes20/gold-us10y-analysis.git
 cd gold-us10y-analysis
 ```
 
@@ -79,21 +79,25 @@ jupyter notebook gold_us10y_analysis.ipynb
 - Crisis periods (2008, COVID) show different patterns than stable periods
 
 ### Period-Specific Insights
+Era                     | Correlation | Interpretation
+------------------------|-------------|---------------------------------------------------------------
+Pre-2008 Crisis         | -0.34       | Gold moved opposite to yields — typical of risk-off hedging.
+2008 Crisis Era         | -0.16       | Relationship weakened during extreme uncertainty.
+Post-Crisis Recovery    | -0.31       | Negative link returns — investors seeking safety amid low rates.
+COVID Era               | -0.33       | Same pattern — falling yields boosted gold.
+Fed Tightening          | +0.45       | Regime shift: gold now moves with yields, breaking the old pattern.
 
-| Period | Correlation | Key Characteristics |
-|--------|-------------|---------------------|
-| **Pre-2008 Crisis** | Variable | Relatively stable relationship |
-| **2008 Crisis Era** | Weakened | Flight to safety dominates |
-| **Post-Crisis Recovery** | Moderate negative | QE impacts both assets |
-| **COVID Era** | Disrupted | Unprecedented monetary policy |
-| **Fed Tightening (2022+)** | Strengthening | Classical relationship returns |
+Key Conclusion
 
-### Key Takeaways
-✅ Rising yields DO tend to pressure gold prices, but...  
-⚠️ The relationship breaks down during crises  
-⚠️ Other factors (dollar strength, inflation, geopolitics) matter significantly  
-⚠️ Not a simple causation - correlation varies across time periods  
+From your data, the historical inverse relationship between gold and bond yields has weakened — and even reversed — in the recent Fed tightening era.
 
+Before 2022, lower yields often meant rising gold (classic safe-haven behavior).
+
+But recently, both have risen together. This suggests a structural shift, where inflation expectations and real rate dynamics now dominate the relationship.
+
+In simple terms:
+
+“Gold no longer behaves purely as a hedge against falling yields — its correlation has flipped in the new inflationary environment.”
 ---
 
 ## 📊 Visualizations
@@ -164,10 +168,10 @@ The analysis generates 7 key visualizations:
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+**[Hezekiah Oyetunde]**
+- GitHub: [@hezecodes20](https://github.com/hezecodes20)
+- LinkedIn: [hezekiah-oyetunde](https://linkedin.com/in/hezekiah-oyetunde)
+- Email: hezekiahoyetunde2000@gmail.com
 
 ---
 
